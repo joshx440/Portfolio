@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Pastrano | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="hero" id="home">
+        <nav class="navbar">
+            <div class="logo">PORTFOLIO</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#work">WORK</a></li>
+                <li><a href="#blog">BLOG</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-container">
+            <div class="hero-left">
+                <div class="hero-text">
+                    <h1>MY NAME IS <br><span class="name">JOSHUA PASTRANO</span></h1>
+                    <span class="badge">I'M A WEB SYSTEM DEVELOPER</span>
+                    <div class="hero-actions">
+                        <a href="resume.html" class="hero-btn primary-btn">VIEW RESUME</a>
+                        <a href="#work" class="hero-btn secondary-btn">VIEW PROJECTS</a>
+                        <a href="https://github.com/joshx440" target="_blank" rel="noopener noreferrer" class="hero-btn secondary-btn">GITHUB</a>
+                        <a href="https://www.linkedin.com/in/joshua-binwag-919538348/" target="_blank" rel="noopener noreferrer" class="hero-btn secondary-btn">LINKEDIN</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-right">
+                <img src="images/joshua-portrait.jpg" alt="Joshua Portrait">
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-image-wrapper">
+                <div class="image-back-card"></div>
+                <img src="images/joshua1.jpg" alt="About Joshua" class="about-img">
+                <div class="yellow-dot"></div>
+            </div>
+            
+            <div class="about-content">
+                <span class="sub-title">WHO AM I</span>
+                <h2>HELLO, I'M JOSHUA</h2>
+                <p>I am a 4th year Information Technology student who is passionate about web development, programming, and building innovative digital systems that help solve real-world problems. I am highly motivated to apply my knowledge in creating useful and efficient technological solutions.</p>
+                <p>I enjoy working with various programming technologies such as HTML, CSS, JavaScript, Python, and database systems. These tools allow me to develop both front-end and back-end applications that improve user experience and system functionality.</p>
+                <p>I am continuously improving my skills through academic projects and hands-on experience. Through consistent learning and practice, I aim to strengthen my abilities and prepare myself for a successful career in the field of Information Technology.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="work">
+        <div class="work-header">
+            <h2>MY PROJECTS</h2>
+            <span class="work-subtext">recent academic works</span>
+        </div>
+
+        <ul class="portfolio-filter">
+            <li class="active">WEB SYSTEM DESIGN AND DEVELOPMENT</li>
+        </ul>
+
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="images/dashboard.png" alt="Dashboard Project Screenshot">
+            </div>
+            <div class="portfolio-item">
+                <img src="images/login.png" alt="Login System Screenshot">
+            </div>
+            <div class="portfolio-item">
+                <img src="images/recycle_bin.png" alt="Recycle Bin Module Screenshot">
+            </div>
+            <div class="portfolio-item">
+                <img src="images/tourism_record.png" alt="Tourism Record System Screenshot">
+            </div>
+            <div class="portfolio-item">
+                <img src="images/users.png" alt="Users Management Screenshot">
+            </div>
+            <div class="portfolio-item active-state">
+                <img src="images/visitors.png" alt="Visitors Management Screenshot">
+            </div>
+        </div>
+
+        <div class="btn-container">
+            <button class="load-more-btn">VIEW MORE</button>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-header">
+            <span class="contact-subtitle">LET'S CONNECT</span>
+            <h2>CONTACT ME</h2>
+            <p>If you'd like to work with me, collaborate on a project, or simply reach out, you can contact me through the details below.</p>
+        </div>
+
+        <div class="contact-grid">
+            <div class="contact-card">
+                <i class="fa-solid fa-phone"></i>
+                <h3>Phone</h3>
+                <p>09618103744</p>
+            </div>
+
+            <div class="contact-card">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Email</h3>
+                <a href="mailto:joshuabinwag12@gmail.com">joshuabinwag12@gmail.com</a>
+            </div>
+
+            <div class="contact-card">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Location</h3>
+                <p>P-7 Malag Valencia City, Bukidnon 8709</p>
+            </div>
+
+            <div class="contact-card">
+                <i class="fa-brands fa-github"></i>
+                <h3>GitHub</h3>
+                <a href="https://github.com/joshx440" target="_blank" rel="noopener noreferrer">github.com/joshx440</a>
+            </div>
+
+            <div class="contact-card">
+                <i class="fa-brands fa-linkedin"></i>
+                <h3>LinkedIn</h3>
+                <a href="https://www.linkedin.com/in/joshua-binwag-919538348/" target="_blank" rel="noopener noreferrer">linkedin.com/in/joshua-binwag-919538348</a>
+            </div>
+        </div>
+
+        <div class="contact-action">
+            <a href="mailto:joshuabinwag12@gmail.com" class="contact-btn">SEND AN EMAIL</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
